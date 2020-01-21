@@ -57,6 +57,31 @@ img {
 
 strong { font-weight: var(--fw-bold) }
 
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: .5em 2em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
 /* Typography */
 
 h1,
@@ -164,4 +189,26 @@ nav { display: none; }
     margin: 0.5em auto 1em;
     background: currentColor;
     opacity: 0.5;
+}
+
+.projects {
+    margin-bottom: 4em;
+}
+
+.project {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+    .projects {
+        display: flex;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .project {
+        margin-left: 3em;
+    }
 }
