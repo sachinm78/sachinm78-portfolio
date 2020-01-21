@@ -26,7 +26,7 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
     :root {
         --fs-h1: 4.5rem;
         --fs-h2: 3.75rem;
@@ -111,7 +111,7 @@ nav { display: none; }
     box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     .intro {
         display: grid;
         width: min-content;
@@ -139,4 +139,13 @@ nav { display: none; }
         left: -1.5em;
         width: calc(100% + 1.5em);
     }
+}
+
+/*  My services section  */
+
+.my-projects {
+    background-color: var(--clr-dark);
+    background-image: url(img/services-bg.jpg);
+    color: var(--clr-light);
+    
 }
