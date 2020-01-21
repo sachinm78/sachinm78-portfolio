@@ -150,3 +150,18 @@ nav { display: none; }
     color: var(--clr-light);
     text-align: center;    
 }
+
+.section__title--projects {
+    color: var(--clr-accent);
+    position: relative;
+}
+
+.section__title--projects::after {
+    content: '';
+    display: block;
+    width: 5em;
+    height: 2px;
+    margin: 0.5em auto 1em;
+    background: currentColor;
+    opacity: 0.5;
+}
