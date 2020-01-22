@@ -248,9 +248,15 @@ nav { display: none; }
     .section__subtitle--about {
         grid-column: 1 / -1;
         grid-row: 2;
+        position: relative;
+        width: calc(100% + 2em);
+        padding-left: 1em;
+        padding-right: calc(200px + 3em);
     }
     
     .about-me__img {
         grid-area: img;
+        position: relative;
+        z-index: 2;
     }
 }
