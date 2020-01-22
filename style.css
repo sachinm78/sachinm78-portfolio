@@ -212,3 +212,10 @@ nav { display: none; }
         margin-left: 3em;
     }
 }
+
+/*  Social links  */
+
+.social-list__link {
+    color: var(--clr-accent)
+}
+
