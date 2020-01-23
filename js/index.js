@@ -35,7 +35,6 @@ function removeTransition(e) {
   window.addEventListener('keydown', playSound);
 
 // paint
-
 const canvas = document.querySelector('#draw');
 const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
@@ -84,6 +83,8 @@ function draw(e) {
 }
 
 function clearGrid() {
+    // ctx.fillStyle="lightgray"
+    // ctx.fillRect(0, 0, canvas.width, canvas.height)
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 

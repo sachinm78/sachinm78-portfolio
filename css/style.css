@@ -557,15 +557,15 @@ kbd {
     padding-top: 1em;
 }
 
-.canvas {
-    border-color: var(--clr-accent);
-    border-width: 3px;
-}
-
-.btn-clear {
+/* .canvas {
     display: flex;
     justify-content: center;
-    margin-top: 2em;
+    border-color: var(--clr-accent);
+    border-width: 3px;
+} */
+
+.btn-clear {
+    margin: 2em;
 }
 
 .social-list__link-dark {
