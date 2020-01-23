@@ -78,6 +78,13 @@ function draw(e) {
     ctx.lineWidth--;
   }
 
+  let button = document.querySelector("btn-clear");
+  button.parentNode.removeChild(button);
+
+}
+
+function clearGrid() {
+    ctxBg.clearRect(0, 0, canvas.width, canvas.height);
 }
 
 canvas.addEventListener('mousedown', (e) => {
