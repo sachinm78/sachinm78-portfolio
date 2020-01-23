@@ -282,7 +282,7 @@ header {
 
 .my-projects {
     background-color: var(--clr-dark);
-    background-image: url(img/services-bg.jpg);
+    background-image: url(../img/services-bg.jpg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;    
