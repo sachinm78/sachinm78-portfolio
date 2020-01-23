@@ -567,3 +567,8 @@ kbd {
     justify-content: center;
     margin-top: 2em;
 }
+
+.social-list__link-dark {
+    color: var(--clr-dark);
+    padding: 0;
+}
