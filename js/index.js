@@ -84,7 +84,7 @@ function draw(e) {
 }
 
 function clearGrid() {
-    ctxBg.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
 canvas.addEventListener('mousedown', (e) => {

@@ -563,5 +563,7 @@ kbd {
 }
 
 .btn-clear {
+    display: flex;
+    justify-content: center;
     margin-top: 2em;
 }
