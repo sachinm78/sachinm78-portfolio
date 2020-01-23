@@ -24,6 +24,8 @@
                     <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
                     <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#drum-kit" class="nav__link">JS Mini Drum Kit</a></li>
+                    <li class="nav__item"><a href="#paint" class="nav__link">JS Paint</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,7 +38,7 @@
             <img src="./img/portfolio-01.jpg" alt="" class="intro__img">
         </section>
 
-        <section class="drum-kit">
+        <section class="drum-kit" id="drum-kit">
             <h1>JS Mini Drum Kit</h1>
             <h3>Click the keys listed to play the drums!</h3>
             <div class="keys">
@@ -67,6 +69,12 @@
               <audio data-key="71" src="./sounds/ride.wav"></audio>
               <audio data-key="72" src="./sounds/snare.wav"></audio>
               <audio data-key="74" src="./sounds/tom.wav"></audio>
+        </section>
+
+        <section class="paint" id="paint">
+            <h1>JS Paint</h1>
+            <h3>Click in the canvas to paint colorful patterns!</h3>
+            <canvas class="canvas" id="draw" width="800" height="800"></canvas>
         </section>
 
                    
