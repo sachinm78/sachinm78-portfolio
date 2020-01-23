@@ -69,7 +69,8 @@ strong { font-weight: var(--fw-bold) }
 /* Buttons */
 
 .btn,
-.btn-home {
+.btn-home,
+.btn-clear {
     display: inline-block;
     padding: .5em 2em;
     background: var(--clr-accent);
@@ -84,7 +85,8 @@ strong { font-weight: var(--fw-bold) }
 }
 
 .btn:hover,
-.btn-home:hover {
+.btn-home:hover,
+.btn-clear:hover {
     transform: scale(1.1);
 }
 
@@ -387,11 +389,13 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
     overflow: hidden;
 }
 
 .portfolio__img {
+    height: 420px;
+    width: 420px;
+    background-size: cover;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -555,5 +559,9 @@ kbd {
 
 .canvas {
     border-color: var(--clr-accent);
-    border-width: thick;
+    border-width: 3px;
+}
+
+.btn-clear {
+    margin-top: 2em;
 }
