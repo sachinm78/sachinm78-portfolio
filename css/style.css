@@ -68,7 +68,8 @@ strong { font-weight: var(--fw-bold) }
 
 /* Buttons */
 
-.btn {
+.btn,
+.btn-home {
     display: inline-block;
     padding: .5em 2em;
     background: var(--clr-accent);
@@ -82,7 +83,8 @@ strong { font-weight: var(--fw-bold) }
     transition: transform 200ms ease-in-out;
 }
 
-.btn:hover {
+.btn:hover,
+.btn-home:hover {
     transform: scale(1.1);
 }
 
@@ -410,6 +412,10 @@ header {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
+}
+
+.btn-home {
+    margin-top: 4em;
 }
 
 /* footer */
