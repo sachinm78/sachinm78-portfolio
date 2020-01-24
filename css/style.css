@@ -559,7 +559,7 @@ kbd {
 
 .btn-canvas {
     display: inline-block;
-    margin: 2em;
+    margin: 1em;
     padding: 1em;
 }
 
@@ -590,11 +590,11 @@ kbd {
     font-size: var(--fs-h3);
     font-weight: var(--fw-bold);
     text-align: center;
-    padding: 1em;
+    padding: 1em 0;
 }
 
 .mouse-shadow {
     padding: 10em 0;
-    color: black;
+    color: var(--clr-dark);
     text-shadow: 10px 10px 0 rgba(0,0,0,1);
 }
