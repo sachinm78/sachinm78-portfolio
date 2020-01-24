@@ -70,7 +70,7 @@ strong { font-weight: var(--fw-bold) }
 
 .btn,
 .btn-home,
-.btn-clear {
+.btn-canvas {
     display: inline-block;
     padding: .5em 2em;
     background: var(--clr-accent);
@@ -86,7 +86,7 @@ strong { font-weight: var(--fw-bold) }
 
 .btn:hover,
 .btn-home:hover,
-.btn-clear:hover {
+.btn-canvas:hover {
     transform: scale(1.1);
 }
 
@@ -557,15 +557,10 @@ kbd {
     padding-top: 1em;
 }
 
-/* .canvas {
-    display: flex;
-    justify-content: center;
-    border-color: var(--clr-accent);
-    border-width: 3px;
-} */
-
-.btn-clear {
-    margin: 2em;
+.btn-canvas {
+    display: inline-block;
+    margin: 2em 20em;
+    padding: 1em;
 }
 
 .social-list__link-dark {

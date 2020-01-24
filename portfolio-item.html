@@ -79,10 +79,11 @@
 
         <section class="paint" id="paint">
             <h1>JS Paint</h1>
-            <h3>Click anywhere below to paint colorful patterns!</h3>
-            <button class="btn-clear" onclick="clearGrid()">Clear Canvas</button>
+            <h3>Click to set the canvas. Then click and hold mouse down to paint!</h3>
+            <button class="btn-canvas" onclick="setCanvas()">Set Canvas</button>
+            <button class="btn-canvas" style="float: right;" onclick="clearGrid()">Clear Canvas</button>
 
-            <canvas class="canvas" id="draw" width="800" height="800"></canvas>
+            <canvas class="canvas" id="draw" width="800" height="500"></canvas>
             <h3 style="font-size: 2rem;">
                 <a class="social-list__link-dark" href="https://github.com/sachinm78/js-html5-canvas">
                     <i class="fab fa-github"> See The Code</i>
